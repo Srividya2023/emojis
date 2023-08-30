@@ -1,0 +1,97 @@
+/* Write your code here. */
+
+@media (max-width:768px){
+    .emoji-game-props{
+    font-size:10px;
+}
+    .nav-container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffffff33;
+    padding:1% 15% 1% 15%;
+    color:#ffffff;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+   
+}
+ .emoji-logo{
+    padding:5px;
+    width:30px;
+    height:30px;
+
+}
+.score-props-visible{
+    display: block;
+    margin-right:5px;
+    
+}
+.top-score-props-visible{
+    display: block;
+    margin-left:5px;
+   
+}
+.score-props-in-visible{
+    display: none;
+    
+}
+.top-score-props-in-visible{
+    display: none;
+   
+}
+
+
+}
+
+.emoji-container{
+    display: flex;
+}
+.scores-container-visible{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.scores-container-in-visible{
+    display: none;
+}
+
+   
+@media (min-width:768px){
+.emoji-game-props{
+    font-size:16px;
+}
+.emoji-logo{
+    width:33%;
+
+}
+.score-props-visible{
+    display: block;
+    margin-right:10px;
+}
+.top-score-props-visible{
+    display: block;
+    margin-left:10px;
+    
+}
+.score-props-in-visible{
+    display: none;
+   
+}
+.top-score-props-in-visible{
+    display: none;
+    
+}
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffffff33;
+    padding:1% 15% 1% 15%;
+    color:#ffffff;
+    font-family: Roboto;
+    font-weight: 500;
+    align-items: center;
+}
+}
